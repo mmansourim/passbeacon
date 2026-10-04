@@ -6,6 +6,14 @@ PassBeacon is a satellite tracking and ground-station pass prediction applicatio
 
 The application combines a React interface with a Python backend powered by Skyfield. Orbital elements from CelesTrak are used to calculate positions and predict passes, while separate command-line tools support station reports and comparisons.
 
+## Screenshots
+
+### Satellite tracking
+![PassBeacon showing satellite ground tracks and pass predictions](images/globe.png)
+
+### Active pass
+![PassBeacon displaying an ongoing pass and its remaining duration](images/active-pass.png)
+
 ## Features
 
 - **Interactive globe:** rotate and zoom the Earth, view satellite ground tracks, and locate the selected ground station with a labeled marker.
