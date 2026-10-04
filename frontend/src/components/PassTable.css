@@ -1,0 +1,34 @@
+.pass-row {
+  color: #94a3b8;
+  transition: background-color 250ms ease;
+}
+
+.pass-row--upcoming:hover {
+  background: #0f1525;
+}
+
+.pass-row--active {
+  background: #102b23;
+  box-shadow: inset 3px 0 #4ade80, inset 0 0 14px #4ade8020;
+}
+
+.pass-row--active:hover {
+  background: #163b2e;
+}
+
+.pass-row--active td {
+  color: #86efac !important;
+}
+
+.pass-row--completed {
+  background: #141923;
+  box-shadow: inset 3px 0 #64748b;
+}
+
+.pass-row--completed:hover {
+  background: #1c2430;
+}
+
+.pass-row--completed td {
+  color: #94a3b8 !important;
+}
